@@ -2,46 +2,19 @@
     background-color: #f8b864;
 }
 
-.left-info {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.left-info  > li {
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    margin: 0 10px 0 10px
-}
-
-.contact-banner {
-    padding: 0 5% 0 5%;
-    background-color: #F26518;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 50px;
-}
-
-.contact-icons > div > ul > li > img {
-    height: 25px;
-    width: 25px;
-    cursor: pointer;
-}
-
-.contact-banner > .contact-icons > img:hover {
-    border-radius: 10px;
-    background-color: white;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+.top-banner > .top-header > div > div > span.top-banner-symbol {
+    margin: 0 0.5rem 0 0.5rem;
+    color: #F1FCFF;
+    font-weight: 300;
 }
 
 .navbar{
     padding: 0 !important;
-    background-color: none !important;
+    background-color: #f2f5fc !important;
+}
+
+.navbar > .nav-container {
+    padding: 0 2rem;
 }
 
 
@@ -50,7 +23,8 @@
 }
 
 .sss-nav-bar> li {
-    margin: 0px 5px 0px 5px
+    margin: 0px 5px 0px 5px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .sss-nav-bar> li > a:hover {
@@ -60,7 +34,8 @@
 }
 
 a {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
     font-weight: 200;
 }
 
