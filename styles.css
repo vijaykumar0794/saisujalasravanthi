@@ -28,6 +28,10 @@
     padding: 0 !important;
 }
 
+img.img-custom-logo {
+    height: 70px !important;
+}
+
 .navbar > .nav-container {
     padding: 0 2rem;
 }
@@ -40,6 +44,7 @@
 .sss-nav-bar> li {
     margin: 0px 5px 0px 5px;
     font-family: 'Nunito', sans-serif;
+    
 }
 
 .sss-nav-bar> li > a:hover {
@@ -51,11 +56,24 @@
 a {
     font-family: 'Nunito', sans-serif;
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 400;
+    color: #091380 !important;
 }
 
 .hero {
-    padding: 730px 0 730px 0;
+    padding: 60px 0 60px 0;
+}
+
+@media only screen and (max-width:950px) {
+        .hero {
+            padding: 650px 0;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        padding: 850px 0;
+    }
 }
 
 .hero {
@@ -120,61 +138,6 @@ a {
 }
 
 
-
 .hero .left-intro, .hero .right-intro {
     margin: 2rem 0;
-}
-
-
-.content-wrapper {
-    height: 500px;
-}
-
-.caption-wrapper{
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-
-
-.header-wrapper {
-    height: 500px;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-wrapper > .heading {
-    text-align: center;
-    color: white;
-    font-size: 2.5rem;
-}
-
-
-.header-wrapper >  .sub-heading {
-    font-weight: 200;
-    font-size: 1.5rem;
-}
-
-.image-slider , .carousel-inner{
-    max-height: 100%;
-}
-
-img {
-    height: 500px;
-}
-
-img.img-custom-logo {
-    height: 70px !important;
 }
